@@ -10,3 +10,6 @@ def is_even(k):
 
 even = is_even(9)
 print(even)
+
+odd = is_even(232)
+print(odd)
