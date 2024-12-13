@@ -1,11 +1,12 @@
 # Write a short Python function that takes a positive integer n and returns
 # the sum of the squares of all the odd positive integers smaller than n.
 
-sample_array = [-9, -7, -5, -3, -1, 1, 3, 5, 7, 9]
-def sum_of_positive(array: int) -> int:
+def sum_of_odd(n):
+	index = 0
 	s = 0
-	for i in sample_array:
-		if i > 0:
-			s += i
-	return s
-print(sum_of_positive(sample_array))
+	while index < n:
+		if index % 2 != 0:
+			s += index
+		index += 1
+	print(s)
+sum_of_odd(6)
