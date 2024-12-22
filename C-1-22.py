@@ -9,4 +9,5 @@ def dot_product(a:List[int], b:List[int]) -> List[int]:
 
 a = [1, 2, 3]
 b = [4, 5, 25]
-dot_product(a,b)
+print(dot_product(a,b))
+
